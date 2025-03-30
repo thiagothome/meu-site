@@ -15,8 +15,8 @@ const Works = () => {
         </div>
         <ul>
           <li><span>Tecnologias utilizadas:</span> HTML, CSS e JS.</li>
-          <li><span>Descrição:</span> A memória é uma das habilidades mais incríveis do nosso cérebro, essencial para o aprendizado, a resolução de problemas e até mesmo para nossas interações diárias. Exercitar a memória não só melhora o, mas também ajuda na concentração e no desenvolvimento cognitivo.</li>
-          <li><span>Funcionamento:</span> O jogador insere seu nome na tela de login, que é armazenado no localStorage. Esse nome é recuperado na tela do jogo para personalizar o placar, proporcionando uma experiência mais imersiva. <Link to='/works/worksmemorygame'>Assita aqui</Link>.</li>
+          <li><span>Descrição:</span> A memória é uma das habilidades mais incríveis do nosso cérebro, essencial para o aprendizado, a resolução de problemas e até mesmo para nossas interações diárias. Exercitar a memória não só melhora o raciocínio lógico, mas também ajuda na concentração e no desenvolvimento cognitivo.</li>
+          <li><span>Funcionamento:</span> O jogador insere seu nome na tela de login, que então é armazenado no localStorage. Esse nome é recuperado na tela do jogo para personalizar o placar proporcionando uma experiência mais imersiva. <Link to='/works/worksmemorygame'>Assita aqui</Link>.</li>
         </ul>
       </div>
       <div className={styles.img}>
