@@ -1,0 +1,111 @@
+.container {
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+  color: #fff;
+  height: 100%;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.titles h4 {
+  font-size: 18px;
+}
+
+.content h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.contentContainer h3::after {
+  display: block;
+  content: '';
+  height: 2px;
+  width: 15%;
+  background-color: #01D5A2;
+}
+
+.contentContainer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  font-size: 18px;
+}
+
+.contentContainer ul li span {
+  color: #00C896;
+  margin-right: 5px;
+}
+
+.formulario, .contentContainer {
+  width: 50%;
+  height: 70%;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.formulario form {
+  width: 70%;
+}
+
+.formulario form {
+  background: #112A2D;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.formulario h2 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 70px;
+}
+
+.formulario form input, .formulario form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.formulario form button {
+  background-color: #00C896;
+  color: #112A2D;
+  border: none;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.formulario form button:hover {
+  background-color: #009A74;
+}

@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  background-color: #001813;
+  height: 100vh;
+  overflow: hidden;
+}
+.active {
+  color: #01D5A2;
+}
