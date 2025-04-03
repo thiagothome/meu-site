@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { HashRouter as Router, Route, Routes } from 'react-router-dom'
 import Home from './Components/Home'
 import AboutMe from './Components/AboutMe'
 import Works from './Components/Works'
@@ -10,7 +10,7 @@ import WorksMemoryGame from './Components/WorksMemoryGame'
 function App() {
   return (
     <div className='container'>
-      <BrowserRouter>
+      <Router>
         <Header />
         <Routes>
           <Route path='/' element={<Home />} />
@@ -19,7 +19,7 @@ function App() {
           <Route path='works/worksmemorygame' element={<WorksMemoryGame />} />
           <Route path='contact' element={<Contact />} />
         </Routes>
-      </BrowserRouter>
+      </Router>
     </div>
   )
 }
